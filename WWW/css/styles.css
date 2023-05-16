@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+
+.pieDePagina {
+	background-color: #161616;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.liga-izquierda {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 15%;
+}
+
+.liga-derecha {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 15%;
+}
+
+.imgRef {
+	height:  100px;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo {
+	height: 350px;
+	object-position: center -125px;
+	max-width: 100%;
+}
+
+.encabezado {
+	margin: 0px;
+	background-color: #161616;
+	display: flex;
+	justify-content: center;
+}
+
+.pieDePag {
+	background-color: #161616;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.liga {
+	color: white;
+	text-decoration: none;
+}
+
+.pContacto {
+	text-align: center;
+	font-size: 25px;
+}
+
+#cuerpoAcerca {
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 25px;
+}
