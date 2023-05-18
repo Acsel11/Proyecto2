@@ -1,4 +1,5 @@
 # Mi-primer-servidor-HTTP
+
 Vamos a aplicar nuestros conocimientos de Javascript, Node.Js y ahora también usaremos lo que aprendimos de html, tendremos de programar de manera práctica y sencilla un servidor con el nombre app.js y otros tres archivos de html, para conocer un poco del desarrollo web.
 
 Prerequisites
@@ -17,7 +18,11 @@ javascript nodejs html
 
 Contributing
 
-Zaid Joel González Mendoza (353254) Desarrollo basado en plataformas (6CC2)
+Daniel Josue Lozano Porras (348603)
+Zaid Joel González Mendoza (353254)
+Axel Ricardo Moncloa Muro (348752)
+
+Desarrollo basado en plataformas (6CC2)
 
 Acknowledgments
 
