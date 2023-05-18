@@ -1,6 +1,6 @@
 FROM node:latest
 
-COPY server.js /servidor.js
+COPY server.js /server.js
 COPY WWW /WWW
 
 EXPOSE 8888
