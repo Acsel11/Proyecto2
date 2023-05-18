@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es" dir="ltr">
+       <meta charset="utf-8">
+       <link rel="stylesheet" href="/css/styles.css">
+       <title>Formulario</title>
+    </head>
+    <body>
+        <div class="encabezado">
+            <a href="/landingPage.html" class="imgRef"><img src="/img/logo.jpeg" class="logo"/></a>
+		</div>
+        <form action="/guardado" method="POST">
+            <div>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="Nombre"><br>
+            </div>
+            <div>
+                <label for="telefono">Número de telefono</label>
+                <input type="tel" id="telefono" name="Telefono"><br>
+            </div>
+            <div>
+                <label for="correo">Correo electrónico</label>
+                <input type="text" id="correo" name="Correo"><br>
+            </div>
+            <div>
+                <label for="fecha">Fecha de recogida</label>
+                <input type="date" id="fecha" name="Fecha">
+                <input type="time" id="hora" name="Hora"><br>
+            </div>
+            <div>
+                <label for="fecha2">Fecha de entrega</label>
+                <input type="date" id="fecha2" name="Fecha2">
+                <input type="time" id="hora2" name="Hora2"><br>
+            </div>
+            <div>
+                <label for="auto">Auto deseado</label>
+                <input type="text" id="auto" name="Auto"><br>
+            </div>
+            <div>
+                <input type="submit" name="" id="enviar" value="Enviar">
+            </div>
+        </form>
+        <div class="pieDePagina">
+		    <a href="/contacto.html" class="liga-izquierda">Contacto</a>
+		    <a href="/acercaDe.html" class="liga-derecha">Acerca de</a>
+	    </div>
+    </body>
+</html>

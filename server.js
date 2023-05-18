@@ -6,6 +6,26 @@ http.createServer((request,response)=>{
   const file = request.url == '/' ? 
   './WWW/landingPage.html' : `./WWW${request.url}`;
 
+  if(request.url == '/guardado'){
+    let data = [];
+    request.on("data", value => {
+      data.push(value);
+    }).on("end", ()=>{
+      let params = Buffer.concat(data).toString();
+      console.log(params);
+      params += '\n';
+      fs.appendFile('WWW/guardado', params, (err) => {
+        if (err) {
+          console.error(err);
+          response.statusCode = 500;
+          response.end('Error al guardar los datos');
+        } else {
+          response.end('Datos guardados correctamente');
+        }
+      });
+    });
+  }
+
   //const data = fs.readFileSync('./WWW/index.html');
   fs.readFile(file, (err, data) => {
     if(err){
