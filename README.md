@@ -1,4 +1,4 @@
-# Mi-primer-servidor-HTTP
+# Proyecto 2
 
 Vamos a aplicar nuestros conocimientos de Javascript, Node.Js y ahora también usaremos lo que aprendimos de html, tendremos de programar de manera práctica y sencilla un servidor con el nombre app.js y otros tres archivos de html, para conocer un poco del desarrollo web.
 
@@ -14,7 +14,7 @@ Los archivos deben estar en una carpeta, y dentro de esa carpeta otra con el nom
 
 Built With
 
-javascript nodejs html
+javascript html css
 
 Contributing
 
