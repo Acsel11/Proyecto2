@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM node:latest
 
-COPY server.js /servidor
+COPY server.js /servidor.js
 COPY WWW /WWW
 
 EXPOSE 8888
