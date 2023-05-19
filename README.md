@@ -22,9 +22,9 @@ javascript html css
 
 ### Contributing
 
-Daniel Josue Lozano Porras (348603)
-Zaid Joel González Mendoza (353254)
-Axel Ricardo Moncloa Muro (348752)
+- Daniel Josue Lozano Porras (348603)
+- Zaid Joel González Mendoza (353254)
+- Axel Ricardo Moncloa Muro (348752)
 
 Desarrollo basado en plataformas (6CC2)
 
